@@ -13,7 +13,7 @@
 
 ## 闲谈
 
-因为某些总所周知的原因，中国不能连接\.githubusercontent\.com和gist，以至于在使用官方下载的渠道时，我们会出现这样子的错误：
+因为某些总所周知的原因，中国不能连接raw\.githubusercontent\.com和gist，以至于在使用官方下载的渠道时，我们会出现这样子的错误：
 
 ![crash!!!](https://i.loli.net/2020/12/16/9zFVgnu2UyjW36T.png)
 
@@ -21,9 +21,7 @@
 
 以往我是自己默默地使用流量（用流量就可以连上，而且还挺快，不知道校园网和有线网为什么不行。。
 
-(但我实在是没流量了。
-
-我也了解到了安装的时候也可以换源。
+(但我实在是没流量了，安装brew core和brew cask至少要1G流量。
 
 就初学了一下正则表达式和脚本。
 
@@ -40,5 +38,5 @@
 ```shell
 git clone https://github.com/tandy1229/brew-install-China && cd brew-install-China && \
 chmod +x brew_install.sh && ./brew_install.sh && \
-cd .. && rm brew-install-China
+cd .. && rm -rf brew-install-China
 ```
