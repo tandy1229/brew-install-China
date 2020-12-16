@@ -13,7 +13,7 @@
 
 ## 闲谈
 
-因为某些总所周知的原因，中国不能连接https://raw.githubusercontent.com和gist，以至于在使用官方下载的渠道时，我们会出现这样子的错误：
+因为某些总所周知的原因，中国不能连接\.githubusercontent\.com和gist，以至于在使用官方下载的渠道时，我们会出现这样子的错误：
 
 ![crash!!!](https://i.loli.net/2020/12/16/9zFVgnu2UyjW36T.png)
 
@@ -27,7 +27,7 @@
 
 就初学了一下正则表达式和脚本。
 
-于是就有了这个简单的脚本，方法就是使用国内cdn下载install.sh，避免了githubusercontent不可用的情况，同时安装时使用中科大的brew源(你也可以编辑我的脚本以使用其他的源,主要我的学校离中科大比较近)。
+于是就有了这个简单的脚本，方法就是使用国内cdn下载install\.sh，避免了githubusercontent不可用的情况，同时安装时使用中科大的brew源(你也可以编辑我的脚本以使用其他的源,主要我的学校离中科大比较近)。
 
 体验及其之好，甚至优于fq。
 
